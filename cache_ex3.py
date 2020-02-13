@@ -5,7 +5,7 @@ CACHE_FILENAME = "cache.json"
 
 def open_cache():
     ''' opens the cache file if it exists and loads the JSON into
-    the FIB_CACHE dictionary.
+    a dictionary, which it then returns.
 
     if the cache file doesn't exist, creates a new cache dictionary
 
